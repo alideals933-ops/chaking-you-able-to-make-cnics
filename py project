@@ -1,0 +1,25 @@
+import math
+a = int(input("entur one number1:"))
+b = input("entur your sign(+,-,*,/,%):")
+c = int(input("entur one number2:"))
+print("your first number",a)
+print("your second number",c)
+if b == '+':
+   print("the sum of ",a,"and",c)
+   print("sum of two number",a+c)
+if b == '-':
+   print("the subtration of ",a,"and",c)
+   print("subtration of two number",a-c)
+if b == '*':
+    print("the Multiplication of ",a,"and",c)
+    print("multiplication of two number",a*c)
+if b == '/':
+    print("that divison of ",a,"and",c)
+    print("divison of two number",a/c)
+if b == '%':
+    print("the modulas of ",a,"and",c)
+    print("moduls of two mumber",a%c)
+
+    
+   
+
